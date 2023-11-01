@@ -1,0 +1,424 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &442804604981006566
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4668137789120348971}
+  - component: {fileID: 3769871987678964501}
+  m_Layer: 0
+  m_Name: StartBlock1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4668137789120348971
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 442804604981006566}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.0259, y: 0, z: -0.0336}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6056039009110078784}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3769871987678964501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 442804604981006566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61fc9d1c044f4af38f454a83e731fe19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <Block>k__BackingField:
+    <Index>k__BackingField: 0
+    <IsOccupied>k__BackingField: 0
+    <IsBlocked>k__BackingField: 0
+    <OccupyingChip>k__BackingField:
+      <CurrentBlock>k__BackingField:
+        <Index>k__BackingField: 0
+        <IsOccupied>k__BackingField: 0
+        <IsBlocked>k__BackingField: 0
+        <OccupyingChip>k__BackingField:
+          <CurrentBlock>k__BackingField:
+            <Index>k__BackingField: 0
+            <IsOccupied>k__BackingField: 0
+            <IsBlocked>k__BackingField: 0
+            <OccupyingChip>k__BackingField:
+              <CurrentBlock>k__BackingField:
+                <Index>k__BackingField: 0
+                <IsOccupied>k__BackingField: 0
+                <IsBlocked>k__BackingField: 0
+                <OccupyingChip>k__BackingField:
+                  <CurrentBlock>k__BackingField:
+                    <Index>k__BackingField: 0
+                    <IsOccupied>k__BackingField: 0
+                    <IsBlocked>k__BackingField: 0
+                    <OccupyingChip>k__BackingField:
+                      <CurrentBlock>k__BackingField:
+                        <Index>k__BackingField: 0
+                        <IsOccupied>k__BackingField: 0
+                        <IsBlocked>k__BackingField: 0
+                      <LastPosition>k__BackingField: 0
+                      <Position>k__BackingField: -1
+                      <IsAtHome>k__BackingField: 0
+                      <PlayerIndex>k__BackingField: 0
+                  <LastPosition>k__BackingField: 0
+                  <Position>k__BackingField: -1
+                  <IsAtHome>k__BackingField: 0
+                  <PlayerIndex>k__BackingField: 0
+              <LastPosition>k__BackingField: 0
+              <Position>k__BackingField: -1
+              <IsAtHome>k__BackingField: 0
+              <PlayerIndex>k__BackingField: 0
+          <LastPosition>k__BackingField: 0
+          <Position>k__BackingField: -1
+          <IsAtHome>k__BackingField: 0
+          <PlayerIndex>k__BackingField: 0
+      <LastPosition>k__BackingField: 0
+      <Position>k__BackingField: -1
+      <IsAtHome>k__BackingField: 0
+      <PlayerIndex>k__BackingField: 0
+--- !u!1 &2784857791763149668
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1691618600370945074}
+  - component: {fileID: 201516867865158632}
+  m_Layer: 0
+  m_Name: StartBlock3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1691618600370945074
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2784857791763149668}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.026, y: 0, z: 0.0317}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6056039009110078784}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &201516867865158632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2784857791763149668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61fc9d1c044f4af38f454a83e731fe19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <Block>k__BackingField:
+    <Index>k__BackingField: 0
+    <IsOccupied>k__BackingField: 0
+    <IsBlocked>k__BackingField: 0
+    <OccupyingChip>k__BackingField:
+      <CurrentBlock>k__BackingField:
+        <Index>k__BackingField: 0
+        <IsOccupied>k__BackingField: 0
+        <IsBlocked>k__BackingField: 0
+        <OccupyingChip>k__BackingField:
+          <CurrentBlock>k__BackingField:
+            <Index>k__BackingField: 0
+            <IsOccupied>k__BackingField: 0
+            <IsBlocked>k__BackingField: 0
+            <OccupyingChip>k__BackingField:
+              <CurrentBlock>k__BackingField:
+                <Index>k__BackingField: 0
+                <IsOccupied>k__BackingField: 0
+                <IsBlocked>k__BackingField: 0
+                <OccupyingChip>k__BackingField:
+                  <CurrentBlock>k__BackingField:
+                    <Index>k__BackingField: 0
+                    <IsOccupied>k__BackingField: 0
+                    <IsBlocked>k__BackingField: 0
+                    <OccupyingChip>k__BackingField:
+                      <CurrentBlock>k__BackingField:
+                        <Index>k__BackingField: 0
+                        <IsOccupied>k__BackingField: 0
+                        <IsBlocked>k__BackingField: 0
+                      <LastPosition>k__BackingField: 0
+                      <Position>k__BackingField: -1
+                      <IsAtHome>k__BackingField: 0
+                      <PlayerIndex>k__BackingField: 0
+                  <LastPosition>k__BackingField: 0
+                  <Position>k__BackingField: -1
+                  <IsAtHome>k__BackingField: 0
+                  <PlayerIndex>k__BackingField: 0
+              <LastPosition>k__BackingField: 0
+              <Position>k__BackingField: -1
+              <IsAtHome>k__BackingField: 0
+              <PlayerIndex>k__BackingField: 0
+          <LastPosition>k__BackingField: 0
+          <Position>k__BackingField: -1
+          <IsAtHome>k__BackingField: 0
+          <PlayerIndex>k__BackingField: 0
+      <LastPosition>k__BackingField: 0
+      <Position>k__BackingField: -1
+      <IsAtHome>k__BackingField: 0
+      <PlayerIndex>k__BackingField: 0
+--- !u!1 &3986605319121241622
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6056039009110078784}
+  - component: {fileID: 2970943889447191822}
+  m_Layer: 0
+  m_Name: PlayerPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6056039009110078784
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3986605319121241622}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4668137789120348971}
+  - {fileID: 536297690672138320}
+  - {fileID: 1691618600370945074}
+  - {fileID: 7935968430534627954}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2970943889447191822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3986605319121241622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21fc00b6e85e4891aa776c298fb81953, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PositionTransform: {fileID: 6056039009110078784}
+  Color: {r: 0.17254902, g: 0.75294125, b: 0.35686275, a: 1}
+--- !u!1 &6073953514059488797
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7935968430534627954}
+  - component: {fileID: 4492410975828950683}
+  m_Layer: 0
+  m_Name: StartBlock4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7935968430534627954
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6073953514059488797}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.0263, y: 0, z: 0.0321}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6056039009110078784}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4492410975828950683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6073953514059488797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61fc9d1c044f4af38f454a83e731fe19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <Block>k__BackingField:
+    <Index>k__BackingField: 0
+    <IsOccupied>k__BackingField: 0
+    <IsBlocked>k__BackingField: 0
+    <OccupyingChip>k__BackingField:
+      <CurrentBlock>k__BackingField:
+        <Index>k__BackingField: 0
+        <IsOccupied>k__BackingField: 0
+        <IsBlocked>k__BackingField: 0
+        <OccupyingChip>k__BackingField:
+          <CurrentBlock>k__BackingField:
+            <Index>k__BackingField: 0
+            <IsOccupied>k__BackingField: 0
+            <IsBlocked>k__BackingField: 0
+            <OccupyingChip>k__BackingField:
+              <CurrentBlock>k__BackingField:
+                <Index>k__BackingField: 0
+                <IsOccupied>k__BackingField: 0
+                <IsBlocked>k__BackingField: 0
+                <OccupyingChip>k__BackingField:
+                  <CurrentBlock>k__BackingField:
+                    <Index>k__BackingField: 0
+                    <IsOccupied>k__BackingField: 0
+                    <IsBlocked>k__BackingField: 0
+                    <OccupyingChip>k__BackingField:
+                      <CurrentBlock>k__BackingField:
+                        <Index>k__BackingField: 0
+                        <IsOccupied>k__BackingField: 0
+                        <IsBlocked>k__BackingField: 0
+                      <LastPosition>k__BackingField: 0
+                      <Position>k__BackingField: -1
+                      <IsAtHome>k__BackingField: 0
+                      <PlayerIndex>k__BackingField: 0
+                  <LastPosition>k__BackingField: 0
+                  <Position>k__BackingField: -1
+                  <IsAtHome>k__BackingField: 0
+                  <PlayerIndex>k__BackingField: 0
+              <LastPosition>k__BackingField: 0
+              <Position>k__BackingField: -1
+              <IsAtHome>k__BackingField: 0
+              <PlayerIndex>k__BackingField: 0
+          <LastPosition>k__BackingField: 0
+          <Position>k__BackingField: -1
+          <IsAtHome>k__BackingField: 0
+          <PlayerIndex>k__BackingField: 0
+      <LastPosition>k__BackingField: 0
+      <Position>k__BackingField: -1
+      <IsAtHome>k__BackingField: 0
+      <PlayerIndex>k__BackingField: 0
+--- !u!1 &7382637788780995530
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 536297690672138320}
+  - component: {fileID: 5151702554469915131}
+  m_Layer: 0
+  m_Name: StartBlock2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &536297690672138320
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7382637788780995530}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.0264, y: 0, z: -0.0331}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6056039009110078784}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5151702554469915131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7382637788780995530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61fc9d1c044f4af38f454a83e731fe19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <Block>k__BackingField:
+    <Index>k__BackingField: 0
+    <IsOccupied>k__BackingField: 0
+    <IsBlocked>k__BackingField: 0
+    <OccupyingChip>k__BackingField:
+      <CurrentBlock>k__BackingField:
+        <Index>k__BackingField: 0
+        <IsOccupied>k__BackingField: 0
+        <IsBlocked>k__BackingField: 0
+        <OccupyingChip>k__BackingField:
+          <CurrentBlock>k__BackingField:
+            <Index>k__BackingField: 0
+            <IsOccupied>k__BackingField: 0
+            <IsBlocked>k__BackingField: 0
+            <OccupyingChip>k__BackingField:
+              <CurrentBlock>k__BackingField:
+                <Index>k__BackingField: 0
+                <IsOccupied>k__BackingField: 0
+                <IsBlocked>k__BackingField: 0
+                <OccupyingChip>k__BackingField:
+                  <CurrentBlock>k__BackingField:
+                    <Index>k__BackingField: 0
+                    <IsOccupied>k__BackingField: 0
+                    <IsBlocked>k__BackingField: 0
+                    <OccupyingChip>k__BackingField:
+                      <CurrentBlock>k__BackingField:
+                        <Index>k__BackingField: 0
+                        <IsOccupied>k__BackingField: 0
+                        <IsBlocked>k__BackingField: 0
+                      <LastPosition>k__BackingField: 0
+                      <Position>k__BackingField: -1
+                      <IsAtHome>k__BackingField: 0
+                      <PlayerIndex>k__BackingField: 0
+                  <LastPosition>k__BackingField: 0
+                  <Position>k__BackingField: -1
+                  <IsAtHome>k__BackingField: 0
+                  <PlayerIndex>k__BackingField: 0
+              <LastPosition>k__BackingField: 0
+              <Position>k__BackingField: -1
+              <IsAtHome>k__BackingField: 0
+              <PlayerIndex>k__BackingField: 0
+          <LastPosition>k__BackingField: 0
+          <Position>k__BackingField: -1
+          <IsAtHome>k__BackingField: 0
+          <PlayerIndex>k__BackingField: 0
+      <LastPosition>k__BackingField: 0
+      <Position>k__BackingField: -1
+      <IsAtHome>k__BackingField: 0
+      <PlayerIndex>k__BackingField: 0
