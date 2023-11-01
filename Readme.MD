@@ -1,3 +1,5 @@
+****use 1080x1920 resolution in-game view
+
 The implementation of the game logic is 80% done, and I didn't test the logic of blocking a home with several chips of a player,
 
 GameModel has several fields for the players' numbers and chip numbers and which player is an AI.
